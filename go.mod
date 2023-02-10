@@ -1,4 +1,4 @@
-module git.imooc.com/zhao-annan/svc
+module github.com/zhao-annan/svc
 
 go 1.18
 
