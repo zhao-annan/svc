@@ -3,10 +3,10 @@ package service
 import (
 	"context"
 	"errors"
-	"git.imooc.com/zhao-annan/svc/domain/model"
-	"git.imooc.com/zhao-annan/svc/domain/repository"
-	"git.imooc.com/zhao-annan/svc/proto/svc"
 	"github.com/zhao-annan/common"
+	"github.com/zhao-annan/svc/domain/model"
+	"github.com/zhao-annan/svc/domain/repository"
+	"github.com/zhao-annan/svc/proto/svc"
 	v1 "k8s.io/api/core/v1"
 	"k8s.io/apimachinery/pkg/util/intstr"
 	"strconv"
